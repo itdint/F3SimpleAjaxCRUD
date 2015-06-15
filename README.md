@@ -1,0 +1,2 @@
+# F3SimpleAjaxCRUD
+This is a super simple contact list crud example using FatFree Framework (F3), MySQL and Ajax calls for CRUD operations.  I created this example because I found it difficult to fine examples of using AJAX with F3 that were straight forward and easy to understand - at least for someone that wasn't super familiar with F3 or MVC design in general.  This should be fairly easy to follow for anyone want to understand how to handle routing and ajax calls in F3.
