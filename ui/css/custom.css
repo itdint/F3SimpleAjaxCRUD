@@ -1,0 +1,9 @@
+/* basic bootstrap settings */
+/* necessary padding for TB sticky navbar */
+body {padding-top: 70px; padding-bottom: 60px;}
+/* Sticky footer css */
+.footer {position: absolute;bottom: 0;width: 100%;height:60px;
+	background-color: #f5f5f5;}
+
+/* app specific css code */
+.centerme {margin:0 auto; text-align:center;}

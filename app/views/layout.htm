@@ -1,0 +1,8 @@
+<!-- *************************************************************
+The primary layout page simply sandwiches the current view between
+the header and footer templates.  Nav could be included here if it
+is truly universal, but can also be loaded on each view page.
+************************************************************** -->
+<include href="header.htm" />
+<include href="{{ @view }}" />
+<include href="footer.htm" />
