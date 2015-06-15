@@ -32,11 +32,17 @@
   <div class="col-lg-4">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h3 class="panel-title">AJAX Contact List Example</h3>
+				<h3 class="panel-title">Contact List Notes</h3>
 			</div>
 		<div class="panel-body">
-			<p></p>
-		</div>
+			<!--<p><strong></strong></p>-->
+      <p>A few notes on the structure of this page and what views, methods and such are used at each step.</p>
+      <p><strong>Intiial View:</strong> On startup - the table rows are dynamically added to the empty table via an ajax call to the getContacts() method.</p>
+      <p><strong>Create Contact:</strong> When you click the add button, it opens the modal dialog with the contact form.  An action with the value of "add" tells the form we are adding a new contact.  Upon submit, the data is written to the database via and ajax call to the addContact() method.</p>
+      <p><strong>Edit Contact:</strong> The edit button fires off a js function to load the contents of the row's cells into the main modal window input table, then it opens the modal window.  On submit - that data is sent via agax to the updateContact() method.</p>
+      <p><strong>Delete Contact:</strong>The delete button simply calls the js script to delete the record via the deleteContact() method.</p>
+      <p><strong>Animations:</strong> Some of the code in this example is there to fade rows in and out.  Obviously this isn't critical to the function but I wanted to add it to make it more of a real-world example.</p>
+    </div>
 		</div>
   </div>
 </div>
